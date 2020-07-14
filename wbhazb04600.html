@@ -1,0 +1,279 @@
+<!doctype html>
+<!doctype html>
+<html lang="ko">
+<head>
+	<title>건강보험공단</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+	<meta name="format-detection" content="telephone=no">
+	<!-- favicon 
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	-->
+	<link rel="stylesheet" href="../../static/css/import.css" media="all">
+	<script src="../../static/js/jquery-2.2.4.js"></script>
+	<script src="../../static/js/jquery-ui.1.12.1.js"></script>
+	<script src="../../static/js/jquery.easing.1.3.js"></script>
+	<script src="../../static/js/jquery.modal.js"></script>
+	<script src="../../static/js/swiper.js"></script>
+	<script src="../../static/js/tooltipster.bundle.js"></script>
+	<script src="../../static/js/ui.common.js"></script>
+</head>
+<body>
+	<!-- cms-content -->
+	<div id="cms-content">
+		<div class="benefits">
+			<p class="depth-2">우리가 미처 몰랐던 건강보험 혜택</p>
+
+			<div class="border-box border-black a-c">
+				<strong class="color-point font-size-16">우리가 평생 낸 보험료 보다 평생 동안 받는 병원비 혜택이 더 크다는 사실 알고 계셨나요?</strong>
+			</div>
+
+			<p class="stit">건강보험료 대비 병원비 혜택 비교</p>
+
+			<div class="benefits-compare">
+				<p class="tit">보험료 대비 병원비 혜택</p>
+
+				<div class="info">
+					<ul>
+						<li>보험료</li>
+						<li>혜택</li>
+						<li>나의 보험료</li>
+					</ul>
+					<span>병원비혜택 <strong>113%</strong></span>
+				</div>
+
+				<div class="graph">
+					<div class="line" style="left:40%;"> <!-- 0~100 까지 나이로 % 지정 -->
+						<strong>40세</strong>
+						<span style="bottom:20%;">나의 보험료</span>
+					</div>
+				</div>
+				<ul class="age">
+					<li><span></span></li>
+					<li><span>20<em>세</em></span></li>
+					<li><span>40<em>세</em></span></li>
+					<li><span>60<em>세</em></span></li>
+					<li><span>80<em>세</em></span></li>
+				</ul>
+
+				<div class="txt-area">
+					<span>태어나서 <strong>학창시절</strong>(0세~22세)까지는 병원비 혜택이 더 크고,</span>
+					<span><strong>경제활동을 하는 동안</strong>(23세~58세)에는 납부하는 보험료가 더 크며,</span>
+					<span><strong>은퇴 후</strong>(59세 이상)에는 병원비 혜택이 훨씬 커지는 것을 알수 있습니다.<br>
+					<p>
+						평생 납부한 보험료 대비 내가 받는 혜택을 계산해보면 <strong>총 113% 이상의 혜택</strong>을 받게됩니다.
+					</p>					
+				</div>
+
+				<dl>
+					<dt>자료기준</dt>
+					<dd>
+						<ul class="list-text v2">
+							<li>가입자 : 2018년 건강보험가입자 (이중가입자는 중복 제거됨)</li>
+							<li>보험료 : 2018년 1년간 부과한 보험료 합계, 경감보험료 반영 (정산 보험료 제외)</li>
+							<li>병원비 혜택 : 공단 현물급여비 지급 총액, 세대 전체의 2018년 1년간 실적을 합산</li>
+						</ul>
+					</dd>
+				</dl>
+
+			</div>
+			
+			<p class="depth-2 mt50">나의 진료비 내역(최근 1년)</p>
+
+			<div class="col-table long">
+				<table>
+					<caption>나의 진료비 내역 목록 테이블</caption>
+					<colgroup>
+						<col style="width:100px">
+						<col style="width:95px">
+						<col style="width:95px">
+						<col>
+						<col>
+						<col>
+						<col>
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">진료형태</th>
+							<th scope="col">방문일수(일)</th>
+							<th scope="col">투약일수(일)</th>
+							<th scope="col">진료(약)비(원)</th>
+							<th scope="col">본인부담금(원)</th>
+							<th scope="col">공단부담금(원)</th>
+							<th scope="col">혜택율(%)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>외래,입원</td>
+							<td>12</td>
+							<td>8</td>
+							<td class="a-r">300,000</td>
+							<td class="a-r">200,000</td>
+							<td class="a-r">200,000</td>
+							<td>200%</td>
+						</tr>
+						<tr>
+							<td>처방조제</td>
+							<td>12</td>
+							<td>8</td>
+							<td class="a-r">300,000</td>
+							<td class="a-r">200,000</td>
+							<td class="a-r">200,000</td>
+							<td>200%</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<p class="depth-2 mt50">나와 내 가족이 받을 수 있는 건강보험 혜택을 확인해 보세요.</p>
+
+			<div class="age-slide">
+				<div class="slide-area">
+					<div id="slider-range-max"></div>
+					<ul>
+						<li><span>0</span></li>
+						<li><span>20세</span></li>
+						<li><span>40세</span></li>
+						<li><span>60세</span></li>
+						<li><span>80세</span></li>
+					</ul>
+					
+					<script>
+						$(function(){
+							$( "#slider-range-max" ).slider({
+								range: "max",
+								min: 0,
+								max: 100,
+								value: 0,
+								slide: function( event, ui ) {
+									$( "#amount" ).val( ui.value );
+								}
+							});
+
+							$("#amount").val($("#slider-range-max").slider("value"));
+							$(".age-area .button").on({
+								click : function(e){
+									var val = $(this).closest(".age-area").find("input").val();
+									if (val > 100 || val < 0){
+										alert("0세 ~ 100세 까지만 확인 가능 합니다.");  
+										$(this).closest(".age-area").find("input").focus();
+										return; 
+									}
+									$(".ui-slider-range").css("width", parseInt(100-val) + "%");
+									$(".ui-slider-handle").css("left", val + "%");
+								}
+							});
+						});
+					</script>
+				</div>
+				<div class="age-area">
+					<p>
+						만 <input type="text" id="amount" class="input-text" title="나이를 입력해주세요."><!-- <p id='rangeValue'>30</p>-->세
+					</p>
+					<button class="button small navy">확인</button>
+				</div>
+			</div>
+
+			<ul class="accordian v1">
+				<li>
+					<a href=""><em>01</em>뇌혈관질환 관련 14개 항목의 건강보험 기준 확대 (2019년 8월 1일 ~ )</a>
+					<div>
+						공단은 소관 업무 수행 및 민원처리 등을 목적으로 최소한의 개인정보를 수집&middot;이용&middot;처리하고 있습니다.
+					</div>
+				</li>
+				<li>
+					<a href=""><em>02</em>응급실, 중환자실 건강보험 적용 확대 (2019년 1월 1일 ~ )</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>03</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>04</em>제목이 노출됩니다.제목이 노출됩니다.제목이 노출됩니다.제목이 노출됩니다.제목이 노출됩니다.제목이 노출됩니다.제목이 노출됩니다.제목이 노출됩니다.제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>05</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>06</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>07</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>08</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>09</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>10</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>11</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+				<li>
+					<a href=""><em>12</em>제목이 노출됩니다.</a>
+					<div>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+						내용이 노출됩니다.내용이 노출됩니다.<br>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--// cms-content -->
+</body>
+</html>
